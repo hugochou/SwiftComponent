@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftComponent" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3z-re-HCi">
+                                <rect key="frame" x="250" y="120" width="100" height="44"/>
+                                <color key="backgroundColor" red="0.89803922179999995" green="0.89803922179999995" blue="0.89803922179999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="L0v-C2-xhp"/>
+                                    <constraint firstAttribute="height" constant="44" id="yPp-bJ-c6Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="LEFT" image="icon_super">
+                                    <color key="titleColor" red="0.96078431369999995" green="0.29803921570000003" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxZ-8K-haK">
+                                <rect key="frame" x="250" y="184" width="100" height="44"/>
+                                <color key="backgroundColor" red="0.89803922179999995" green="0.89803922179999995" blue="0.89803922179999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="L0w-4c-nsb"/>
+                                    <constraint firstAttribute="width" constant="100" id="tgb-CE-4l1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="RIGHT" image="icon_super">
+                                    <color key="titleColor" red="0.96078431369999995" green="0.29803921570000003" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awe-bv-ZqR">
+                                <rect key="frame" x="250" y="248" width="100" height="44"/>
+                                <color key="backgroundColor" red="0.89803922179999995" green="0.89803922179999995" blue="0.89803922179999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="O1d-ff-Nar"/>
+                                    <constraint firstAttribute="height" constant="44" id="sTV-sr-lQh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="TOP" image="icon_super">
+                                    <color key="titleColor" red="0.96078431369999995" green="0.29803921570000003" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="azV-aq-CBF">
+                                <rect key="frame" x="250" y="312" width="100" height="44"/>
+                                <color key="backgroundColor" red="0.89803922179999995" green="0.89803922179999995" blue="0.89803922179999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="699-4d-btA"/>
+                                    <constraint firstAttribute="width" constant="100" id="UI1-fQ-lTu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="BOTTOM" image="icon_super">
+                                    <color key="titleColor" red="0.96078431369999995" green="0.29803921570000003" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="awe-bv-ZqR" firstAttribute="top" secondItem="dxZ-8K-haK" secondAttribute="bottom" constant="20" id="EYf-wE-9xz"/>
+                            <constraint firstItem="L3z-re-HCi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="M9P-cp-wti"/>
+                            <constraint firstItem="awe-bv-ZqR" firstAttribute="leading" secondItem="dxZ-8K-haK" secondAttribute="leading" id="Ngm-WQ-hzq"/>
+                            <constraint firstItem="L3z-re-HCi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SSK-jC-vAm"/>
+                            <constraint firstItem="dxZ-8K-haK" firstAttribute="top" secondItem="L3z-re-HCi" secondAttribute="bottom" constant="20" id="iJD-eG-fiL"/>
+                            <constraint firstItem="dxZ-8K-haK" firstAttribute="leading" secondItem="L3z-re-HCi" secondAttribute="leading" id="njy-n5-YqW"/>
+                            <constraint firstItem="awe-bv-ZqR" firstAttribute="leading" secondItem="azV-aq-CBF" secondAttribute="leading" id="oiJ-Qz-Jdr"/>
+                            <constraint firstItem="azV-aq-CBF" firstAttribute="top" secondItem="awe-bv-ZqR" secondAttribute="bottom" constant="20" id="zzN-5L-c1w"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomBtn" destination="azV-aq-CBF" id="coq-qO-pMT"/>
+                        <outlet property="leftBtn" destination="L3z-re-HCi" id="l31-pT-ypF"/>
+                        <outlet property="rightBtn" destination="dxZ-8K-haK" id="vgu-Ah-C4I"/>
+                        <outlet property="topBtn" destination="awe-bv-ZqR" id="rG2-B6-DEW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_super" width="15" height="15"/>
+    </resources>
+</document>
